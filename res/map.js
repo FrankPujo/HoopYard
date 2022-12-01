@@ -2,11 +2,14 @@
 var map = L.map("map").setView([41, 12], 5);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
+// some utilities and calculations
+side = window.innerHeight * 0.034
+
 // ball icon
 var ballIcon = L.icon({
 	iconUrl: "../res/img/bball-icon.png",
-	iconSize:     [24, 24],
-	iconAnchor:   [12, 12],
+	iconSize:     [side, side],
+	iconAnchor:   [side / 2, side / 2],
 });
 
 // courts
