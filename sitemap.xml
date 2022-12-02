@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://frankpujo.github.io/hoopyard</loc>
+		<changefreq>monthly</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://frankpujo.github.io/hoopyard/courts/map.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://frankpujo.github.io/hoopyard/courts/wiki.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>2</priority>
+	</url>
+	<url>
+		<loc>https://frankpujo.github.io/hoopyard/courts/info.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>3</priority>
+	</url>
+</urlset>
