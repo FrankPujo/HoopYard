@@ -16,3 +16,24 @@ body {
 h1, h2, h3, h4, p {
 	margin: 0;
 }
+
+#wiki {
+	margin-left: 1vw;
+	width: 99vw;
+}
+
+.nation {
+	margin-left: 1vw;
+}
+
+.city {
+	margin-left: 1vw;
+}
+
+.court {
+	margin-left: 1vw;
+}
+
+.mapLink {
+	width: 3em;
+}
