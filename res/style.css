@@ -11,29 +11,84 @@
 
 body {
 	margin: 0;
+	background-color: #222;
 }
 
 h1, h2, h3, h4, p {
 	margin: 0;
+	color: white;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 2.1em;
+}
+
+h3 {
+	font-size: 1.7em;
+}
+
+h4 {
+	font-size: 1.3em;
 }
 
 #wiki {
 	margin-left: 1vw;
-	width: 99vw;
+	width: 97vw;
 }
 
 .nation {
 	margin-left: 1vw;
+	margin-top: 2vh;
+	width: 96vw;
+}
+
+.nationname {
+	margin-left: 1vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
 
 .city {
+	margin-left: 2vw;
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	width: 94vw;
+	border: solid 2px #15BCD6;
+	border-radius: 1vw;
+}
+
+.cityname {
 	margin-left: 1vw;
+	margin-top: 1vh;
 }
 
 .court {
 	margin-left: 1vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	width: 91vw;
+	border-top: solid 2px #15BCD6;
 }
 
 .mapLink {
 	width: 3em;
+}
+
+.infocard {
+	display: inline-block;
+	background-color: #552418;
+	width: 17vw;
+	height: 17vw;
+	margin: 1vw;	
+	border-radius: 2vw;
+}
+
+.code {
+	color: #15BCD6;
+	display: inline-block;
 }
